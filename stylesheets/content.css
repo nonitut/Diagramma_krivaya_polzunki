@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background: rgb(228, 242, 255);
+}
+
+@font-face {
+font-family: "CarlaSansLight";
+src: url("../fonts/CarlaSansLight.ttf") format("truetype");
+font-style: Light;
+font-weight: Light;
+}
+
+p{
+    font-family: 'CarlaSansLight';
+}
+#bezierCanvas{
+    margin-left: -40%;
+    margin-top: 2%;
+    margin-bottom: -2%;
+}
+.buttonblock{
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
